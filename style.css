@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+  }
+
+
+  header{
+    text-align: center;
+    max-width: 1200px;
+    height: 48px;
+    margin-top: 59px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    display: block;
+    margin: 0 auto;
+  }
+  .container {
+    max-width: 1200px;
+ 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    
+      
+  }
+  .temasu{font-size: 17px;
+    font-weight: 400;
+
+  }
+  .links{
+    display:flex;
+    justify-content:space-around;
+    width: 532px;
+    margin-top: 20px;
+  }
+  .hintergrund{
+    width: 116px;
+    height: 116px;
+    background-color:#1eacc7;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .icon{
+    width: 116px;
+    height: 116px;
+    margin-top: 25px;
+  }
+  .text {
+    width: 371px;
+    height: 150px;
+    margin-left: 1px;
+    
+
+  }
+  .temasu{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1eacc7;
+
+  }
+  .texti{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+  }
+  .temasu{
+    padding-top: 40px;
+   
+   
+  }
+  .logo_text {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(183, 14, 14);
+    margin-top: 11px;
+    text-transform: uppercase;
+    background-color:white
+    
+   
+  }
+  .btn{
+    width: 112px;
+    height: 24px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    
+    
+  }
+  .vorword{
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    max-width: 1200px;
+    height: 48px;
+    margin-top: 59px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+
+  }
+  section{
+    display: flex;
+  }
+  .two{
+    height: 300px;
+  }
+.content{
+    max-width: 1200px;
+ 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+ 
+  align-content: center;
+ 
+}
+.tema{
+    width: 641px;
+    height: 48px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    
+
+}
+.artku{
+    background: url("./foto.png");
+    width: 320px;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.zwei{
+    gap: 40px;
+    margin-top: 30px;
+  
+    
+    
+}
+.card{
+  width: 268px;
+  height: 31px;
+  font-weight: 400;
+  font-size: 24px;
+
+ 
+
+  
+  
+
+}
+.card .knopka{
+  display: flex;
+  text-align: end;
+}
+
+ 
+
+.text-incard {
+  
+  text-align: center;
+  color: #ffff;
+  text-transform: uppercase;
+
+
+
+}
+.plus  {
+  width: 14px;
+  height: 14px;
+  justify-content: center;
+  align-items: end;
+  
+}
+.knopka{
+  width: 29px;
+  height: 29px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  
+}
+.zwei{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+ 
+
+
+ 
+
+
+
+.inbox{
+display: block;
+  
+}
+
+
+
+
+input{
+  margin: 10px;
+}
+.check-box{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  
+}
+
