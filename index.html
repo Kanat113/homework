@@ -6,6 +6,67 @@
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <h3 id="out"></h3>
+        <h3 id="out1"></h3>
+       
+    </div>
+
+
+    <script>
+
+
+        const car = {
+            brand: 'Toyota',
+            model: 'Camry',
+            year: 1996,
+            color: 'blue',
+            displayInfo: function () {
+             return this.brand + " " + this.model + " " + this.year + " " + this.color
+            }
+          
+        }
+
+        const person = {
+            name: "Kanat",
+            weight: 80,
+            adress: {
+                strasse: 'musterstrasse 12',
+                stadt: 'Hamburg'
+            }
+        }
+
+
+        console.log('############# Person ############');
+        console.log('name: ', person.name);
+        console.log('strasse: ',person.adress.strasse);
+        console.log('stadt: ', person.adress.stadt);
+
+
+        document.getElementById("out").innerHTML = car.displayInfo()
+
+        console.log('############# Car ############');
+        console.log(car.model);
+        console.log(car.year = 2007);
+        console.log(car.color);
+        console.log(delete car.model);
+        console.log(car.model);
+        console.log(car.displayInfo());
+
+        let newProp = 'weight'
+        let reifen = 'reifen'
+        console.log(car[newProp] = 5000);
+        car[reifen] = 'continental'
+        console.log(car.reifen);
+         console.log(car);
+
+
+       
+
+  
+        
+
+    </script>
     
 </body>
 </html>
