@@ -1,0 +1,22 @@
+.js-btn{
+    background-color: green;
+    width: 200px;
+    height: 50px;
+   font-size: 900;
+}
+.js-btn:active{
+    background-color: red;
+}
+.class{
+    background-color: aqua;
+
+}
+.hm{
+    width: 200px;
+}
+.buttons{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+} 
+
+  
