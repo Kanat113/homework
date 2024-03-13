@@ -1,0 +1,5 @@
+.tag {
+    display:grid;
+    gap: 10px;
+    width: 200px;
+}
