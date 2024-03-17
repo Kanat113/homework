@@ -1,3 +1,39 @@
+
+let bundeslaender = {
+    name: "Baden-Württemberg",
+    population: 11.1,
+    url: "https://www.baden-wuerttemberg.de/de/startseite/",
+    color: "red"
+}
+
+
+let name = bundeslaender.name
+let population = bundeslaender.population
+let url = bundeslaender.url
+let color = bundeslaender.color
+
+
+console.log(name);
+console.log(population);
+console.log(url);
+console.log(color);
+
+
+
+
+
+const animals = ['apple', ' Banane', 'Lemon', true]
+
+let [apple, banane, lemon, bool] = animals
+
+console.log(apple);
+console.log(banane);
+console.log(lemon);
+console.log(bool);
+
+
+
+
 const btn = document.querySelector("#timer");
 
 
