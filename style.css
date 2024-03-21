@@ -1,0 +1,23 @@
+
+
+.character {
+    border: 10px solid transparent; 
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: yellowgreen;
+  }
+  
+  .alive:active {
+    border-color: green; 
+  
+  }
+  .unknown:active {
+    border-color:gray;
+  
+  }
+  .Dead:active {
+    border-color: red;
+  
+  
+  }
